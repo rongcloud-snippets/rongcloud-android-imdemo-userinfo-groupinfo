@@ -16,6 +16,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        //在项目主工程的 build.gradle 引入融云maven仓库
+        maven {url  "https://dl.bintray.com/rongcloud/maven"}
     }
 }
 
